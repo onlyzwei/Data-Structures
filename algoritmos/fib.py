@@ -10,8 +10,7 @@ def fibonacci_r(n):
     
     return fibonacci_r(n - 1) + fibonacci_r(n - 2)
 
-# Versão iterativa -> O(n) (Programação Dinâmica Implícita)
-
+# Versão iterativa -> O(n) (Programação Dinâmica Bottom-Up) 
 '''
 Isso é um caso especial de programação dinâmica, onde a redução de estado (armazenar apenas dois valores)
 otimiza o uso de memória.
@@ -32,7 +31,7 @@ def fibonacci(n):
 
     return atual
 
-# Versão iterativa -> O(n) (Programação Dinâmica Explícita)
+# Versão iterativa -> O(n) (Programação Dinâmica Bottom-Up) 
 def fibonacci_pd(n):
     if n == 0 or n == 1:
         return 1

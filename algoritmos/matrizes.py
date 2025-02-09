@@ -117,3 +117,4 @@ if __name__ == "__main__":
     Conclusão:
     Dependendo da ordem da multiplicação, o número total de operações muda.
     '''
+
